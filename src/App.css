@@ -1,0 +1,131 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: left;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.MainHeader {
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+}
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+#dark .CardWrap{
+  background: #001529;
+  color:#fff;
+}
+#light .CardWrap{
+  background: #fff;
+  color:#000;
+}
+.SideBarStyle.ant-layout-sider-collapsed {
+    flex: 0 0 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+}
+.SideBarStyle{
+  z-index: 2;
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+.ant-layout-sider-trigger{
+  width: 250px !important;
+}
+.SideBarStyle.ant-layout-sider-collapsed .ant-layout-sider-trigger{
+  width: 80px !important;
+}
+.ContentStyle {
+  margin-top: 70px;
+}
+.AvatarStyle {
+  float: right;
+  top: 10px;
+  right: 10px;
+}
+.MainLogo{
+  display:flex;
+  justify-content: center;
+  padding:10px 0px;
+}
+.SideBarStyle .ant-layout-sider-children{
+  position: fixed;
+  width: inherit;
+}
+.ant-layout-sider-collapsed .hiddenOncollapse{
+  display: none;
+}
+.ThemeWrapper {
+      display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ThemeWrapper span{
+      font-size: 12px;
+    display: flex;
+}
+.ThemeWrapper i {
+  font-size: 18px;
+    padding-right: 6px;
+}
+.SideBarStyle.ant-layout-sider-dark .ant-layout-sider-children .ThemeWrapper span{
+  color:rgba(255, 255, 255, 0.65);
+}
+.ant-layout-sider-collapsed .ant-layout-sider-children .ThemeWrapper span {
+  display: none;
+}
+.ant-layout-sider-collapsed .ant-layout-sider-children .ThemeWrapper button {
+  margin:0px auto;
+}
+.MainHeader{
+  z-index: 1;
+  box-shadow: 4px 4px 40px 0 rgba(0, 0, 0, 0.05);
+}
+.dropdownAvatar{
+  float: right;
+}
+.login-form {
+    max-width: 300px;
+    margin: 120px auto;
+}
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+}

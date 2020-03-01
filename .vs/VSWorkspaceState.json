@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Login",
+    "\\src\\components\\nested",
+    "\\src\\components\\pages"
+  ],
+  "SelectedNode": "\\src\\components\\Login\\loginApi.js",
+  "PreviewInSolutionExplorer": false
+}
